@@ -94,21 +94,38 @@ require_once 'function.php';
 
 // home work 2
 
-$str = 'string1
-string2
+//$str = 'string1
+//string2
+//
+//string3
+//string4
+//
+//string5';
+//
+//$pattern = '#\r\n\r\n#';
+//$replacement = '\r\n'; // обовязково двойні кавички ! бо так не спрацює
+//$replacement = "\r\n"; // обовязково двойні кавички !
+//
+//$res = preg_replace($pattern, $replacement, $str);
+//
+//pr1($res);
 
-string3
-string4
+// lesson 5
 
-string5';
 
-$pattern = '#\r\n\r\n#';
-$replacement = '\r\n'; // обовязково двойні кавички ! бо так не спрацює
-$replacement = "\r\n"; // обовязково двойні кавички !
 
-$res = preg_replace($pattern, $replacement, $str);
 
-pr1($res);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
