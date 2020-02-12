@@ -118,6 +118,9 @@ require_once 'function.php';
 //test.ua@gmail.com
 //test@gmail.com
 
+// 1\+2 = 1+2
+
+
 
 
 
