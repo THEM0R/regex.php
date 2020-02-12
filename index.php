@@ -44,36 +44,38 @@ require_once 'function.php';
 
 
 
-if (preg_match($pattern, $str)) {
-    echo "Строка |<b>$str</b>| <span style='color: green'>совпала</span> с шаблоном <b><em>$pattern</em></b>";
-} else {
-    echo "Строка |<b>$str</b>| <span style='color: red'>не совпала</span> с шаблоном <b><em>$pattern</em></b>";
-}
+//if (preg_match($pattern, $str)) {
+//    echo "Строка |<b>$str</b>| <span style='color: green'>совпала</span> с шаблоном <b><em>$pattern</em></b>";
+//} else {
+//    echo "Строка |<b>$str</b>| <span style='color: red'>не совпала</span> с шаблоном <b><em>$pattern</em></b>";
+//}
 
 
 // . любий символ окрім переносу строки
 
 // lesson 4
-
-$str = '<h1>
-<h2>
-<p>
-<h7>
-<em>
-<h3>
-<strong>
-<h5>
-<hr>
-<h9>';
-$pattern = '#<h[1-6]>#';
-
-preg_match_all($pattern, $str, $matches);
-
-foreach ($matches[0] as $match){
-    echo htmlspecialchars($match);
-}
-exit;
+//
+//$str = '<h1>
+//<h2>
+//<p>
+//<h7>
+//<em>
+//<h3>
+//<strong>
+//<h5>
+//<hr>
+//<h9>';
+//$pattern = '#<h[1-6]>#';
+//
+//preg_match_all($pattern, $str, $matches);
+//
+//foreach ($matches[0] as $match){
+//    echo htmlspecialchars($match);
+//}
+//exit;
 //pr1($matches);
+
+// lesson 5
 
 
 
