@@ -34,6 +34,29 @@ require_once 'function.php';
 
 // lesson 2
 
+//$str = 'gray';
+//$pattern = '#gr.y#';
+//
+//if (preg_match($pattern, $str)) {
+//    echo "Строка |<b>$str</b>| <span style='color: green'>совпала</span> с шаблоном <b><em>$pattern</em></b>";
+//} else {
+//    echo "Строка |<b>$str</b>| <span style='color: red'>не совпала</span> с шаблоном <b><em>$pattern</em></b>";
+//}
+
+$str = 'a';
+$pattern = '#a#';
+
+//preg_match_all();
+
+if (preg_match($pattern, $str)) {
+    echo "Строка |<b>$str</b>| <span style='color: green'>совпала</span> с шаблоном <b><em>$pattern</em></b>";
+} else {
+    echo "Строка |<b>$str</b>| <span style='color: red'>не совпала</span> с шаблоном <b><em>$pattern</em></b>";
+}
+
+
+// . любий символ окрім переносу строки
+
 
 
 
