@@ -76,6 +76,39 @@ require_once 'function.php';
 //pr1($matches);
 
 // lesson 5
+// home work 1
+
+//$str = 'goods1		15
+//goods2	17.5
+//goods3		20
+//goods4		21
+//goods5	18';
+//
+//$pattern = '#\t\t#';
+//$replacement = '\t'; // обовязково двойні кавички ! бо так не спрацює
+//$replacement = "\t"; // обовязково двойні кавички !
+//
+//$res = preg_replace($pattern, $replacement, $str);
+
+//pr1($res);
+
+// home work 2
+
+$str = 'string1
+string2
+
+string3
+string4
+
+string5';
+
+$pattern = '#\r\n\r\n#';
+$replacement = '\r\n'; // обовязково двойні кавички ! бо так не спрацює
+$replacement = "\r\n"; // обовязково двойні кавички !
+
+$res = preg_replace($pattern, $replacement, $str);
+
+pr1($res);
 
 
 
