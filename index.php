@@ -110,7 +110,19 @@ require_once 'function.php';
 //
 //pr1($res);
 
-// lesson 5
+// lesson 6
+
+// \w@\w\.\w
+
+//test.mor.ua@gmail.com
+//test.ua@gmail.com
+//test@gmail.com
+
+
+// 1\+2 = 1+2
+
+
+
 
 
 
